@@ -33,7 +33,6 @@ export default function StarRating({
 
   function handelRating(rating) {
     setRating(rating);
-    onSetRating(rating);
     console.log(rating);
   }
 
