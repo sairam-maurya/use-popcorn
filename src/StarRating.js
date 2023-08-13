@@ -33,7 +33,8 @@ export default function StarRating({
 
   function handelRating(rating) {
     setRating(rating);
-    console.log(rating);
+    onSetRating(rating)
+    // console.log(rating);
   }
 
   const textStyle = {
